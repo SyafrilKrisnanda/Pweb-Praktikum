@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapala Indonesia</title>
+    <link rel="stylesheet" type="text/css" href="pweb.css">
+
+</head>
+
+<body>
+    <div class="signupbox">
+        <h2>Masuk ke Pecinta Alam</h2>
+
+        <form>
+            <p><b>Username atau E-Mail</b></p>
+            <input type="text" placeholder="Enter Username" name="uname" id="uname" value="">
+            <p><b>Password</b></p>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" value="">
+            <button type="submit" class="button1" onclick="showinfo(); return false;">Sign Up</button>
+        </form>
+    </div>
+    <div id="showAlert">
+        <div class="conten ">
+            <p>!!!</p>
+        </div>
+        <div class="halo">
+            <p>Selamat Datang Saudara, Salam Lestari !!!</p>
+            <button type="submit " class="lestari" onclick="showalert() ">Lestari!!!</button>
+        </div>
+    </div>
+    <div id="account">
+        <table>
+            <tr>
+                <td>Username :</td>
+                <td id="username"></td>
+            </tr>
+            <tr>
+                <td>Password :</td>
+                <td id="password"></td>
+            </tr>
+        </table>
+        <button type="submit" class="close" onclick="closeInfo()">Close</button>
+    </div>
+    <script src="pweb.js"></script>
+</body>
+
+</html>
